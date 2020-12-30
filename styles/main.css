@@ -1,5 +1,50 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: 0;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #f4f5f5;
+}
+header {
+  display: flex;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  align-items: center;
+
+  background: #72bfd6;
+  padding: 15px;
+}
+.logo-container,
+.nav-links,
+.user {
+  display: flex;
+}
+.logo-container {
+  flex: 1;
+  align-items: center;
+  color: #f4f5f5;
+}
+.logo {
+  font-weight: 400;
+  margin: 5px;
+}
+nav {
+  flex: 2;
+}
+.nav-links {
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-link {
+  color: #f4f5f5;
+  font-size: 18px;
+  text-decoration: none;
+}
+.user {
+  flex: 1;
+  justify-content: flex-end;
+  color: #f4f5f5;
 }
