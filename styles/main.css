@@ -83,7 +83,7 @@ body {
 }
 .container .sidebar {
   grid-column: 3/4;
-  background: #e7d9ea;
+  background: #dddddd;
   color: #00303f;
   text-align: center;
   /* display: flex;
@@ -95,11 +95,14 @@ body {
   grid-area: sidebar;
 }
 .container .sidebar li {
-  list-style: none;
+  list-style: decimal-leading-zero;
+  margin: 18px;
 }
 .container .sidebar li a {
   text-decoration: none;
   color: #00303f;
+  font-size: 17px;
+  font-weight: bold;
 }
 .container .footer {
   background: #00587a;
