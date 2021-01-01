@@ -79,18 +79,27 @@ body {
 }
 .container .content {
   grid-area: content;
+  margin: 15px;
 }
 .container .sidebar {
   grid-column: 3/4;
-  background: #30475e;
-  color: #ffffff;
+  background: #e7d9ea;
+  color: #00303f;
   text-align: center;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   min-height: 100px;
+  margin: 15px;
 
   grid-area: sidebar;
+}
+.container .sidebar li {
+  list-style: none;
+}
+.container .sidebar li a {
+  text-decoration: none;
+  color: #00303f;
 }
 .container .footer {
   background: #00587a;
